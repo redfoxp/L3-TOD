@@ -13,4 +13,4 @@ clean:
 	rm bin/*.class
 
 edit:
-	atom src/*.java
+	atom src/*.java 
