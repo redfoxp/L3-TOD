@@ -20,10 +20,7 @@ import java.io.*;
 
       public String toString()
       {
-
-
-
-                  return   this.num + "\n--\n" + this.den;
+        return   this.num + "\n--\n" + this.den;
       }
 
 

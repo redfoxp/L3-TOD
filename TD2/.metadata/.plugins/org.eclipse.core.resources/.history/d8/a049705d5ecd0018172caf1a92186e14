@@ -1,0 +1,30 @@
+import java.util.*;
+
+public class Compte {
+	private static int solde;
+	private String NomCompte;
+	
+
+	  public Compte()
+	  {
+	      this.NomCompte = "Compte";
+	      this.solde = 100;
+	  }
+
+	public void virement()
+	{
+
+
+	}
+
+	public int getSolde()
+	{
+	    return  this.solde;
+	}
+
+	public void affSolde()
+	{
+	  System.out.println(this.NomCompte+ " : "  + this.getSolde());
+	}
+
+}

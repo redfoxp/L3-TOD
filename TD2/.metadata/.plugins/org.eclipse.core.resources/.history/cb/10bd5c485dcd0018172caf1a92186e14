@@ -1,0 +1,10 @@
+import org.junit.*;
+
+public class Test {
+@Test 
+	public void testSolde()
+{
+	Compte c = new Compte();
+	assert True(c.getSolde() == 0);
+}
+}
